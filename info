@@ -17,3 +17,5 @@ na podstronie "Kontakt" ma być formularz kontaktowy oraz mapa z Google Maps wsk
 na jego stronie pojawiły się darmowe ikonki (np. ✔️ w kartach z ofertą, ✉️ w formularzu kontaktowym itd.).
 
 https://cdn.fs.teachablecdn.com/0h5IJRxyQq6WTEUeEy9r
+
+Dodać scroll-spy ale najpierw naprawić position sticky na nav
