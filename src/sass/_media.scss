@@ -1,0 +1,205 @@
+@media (min-width: 400px) {
+	.main {
+		&_photo {
+			&-text {
+				font-size: 2.6rem;
+			}
+		}
+	}
+}
+
+@media (min-width: 576px) {
+	.main {
+		&_photo {
+			&-text {
+				padding: 1em 3em;
+				font-size: 2.8rem;
+			}
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	.header {
+		&_textbox {
+			&-text {
+				font-size: 2.8rem;
+			}
+
+			&-title {
+				font-size: 3.8rem;
+			}
+		}
+	}
+
+	.main {
+		&_aboutus {
+			flex-direction: row;
+
+			&-left {
+				width: 50%;
+
+				&-img {
+					width: 100%;
+					height: 100%;
+				}
+			}
+
+			&-right {
+				padding: 0 1em 0 4em;
+				width: 50%;
+			}
+		}
+
+		&_photo {
+			&-text {
+				font-size: 3.2rem;
+			}
+		}
+
+		&_offert {
+			&-box {
+				&-item {
+					&-type {
+						font-size: 2.8rem;
+					}
+
+					&-price {
+						font-size: 2.8rem;
+					}
+
+					&-list {
+						&-item {
+							&-text {
+								font-size: 2rem;
+
+								&--notactive {
+									font-size: 2rem;
+								}
+							}
+						}
+					}
+
+					&-button {
+						font-size: 1.8rem;
+					}
+				}
+			}
+		}
+	}
+
+	.footer {
+		&_top {
+			flex-direction: row;
+			justify-content: space-between;
+
+			&-left {
+				font-size: 4.2rem;
+			}
+
+			&-right {
+				display: flex;
+				&-box {
+					&-title {
+						font-size: 2.8rem;
+					}
+
+					&-link {
+						font-size: 1.8rem;
+					}
+				}
+			}
+		}
+
+		&-text {
+			font-size: 1.8rem;
+		}
+	}
+}
+
+@media (min-width: 992px) {
+	.nav {
+		justify-content: space-around;
+		&_list {
+			display: flex;
+		}
+		&_hamburger {
+			display: none;
+
+			&-listbox {
+				display: none;
+			}
+		}
+	}
+
+	.header {
+		background-image: url("../img/header-big.jpg");
+
+		&_textbox {
+			&-text {
+				font-size: 3rem;
+			}
+
+			&-title {
+				font-size: 4rem;
+			}
+		}
+	}
+
+	.main {
+		&_photo {
+			background-image: url("../img/girl-big.jpg");
+
+			&-text {
+				font-size: 3.6rem;
+			}
+		}
+
+		&-title {
+			font-size: 4.4rem;
+		}
+
+		&-text {
+			font-size: 2rem;
+		}
+
+		&_offert {
+			&-box {
+				flex-direction: row;
+
+				&-item {
+					margin: 1em 2em;
+				}
+			}
+			
+		}
+	}
+
+	.footer {
+		&_top {
+			flex-direction: row;
+			justify-content: space-between;
+
+			&-left {
+				font-size: 4.4rem;
+			}
+
+			&-right {
+				display: flex;
+				&-box {
+					&-title {
+						font-size: 3rem;
+					}
+
+					&-link {
+						font-size: 1.8rem;
+					}
+				}
+			}
+		}
+
+		&-text {
+			font-size: 1.8rem;
+		}
+	}
+}
