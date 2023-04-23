@@ -58,8 +58,10 @@
 		}
 
 		&_offert {
-			&-more {
-				font-size: 2.6rem;
+			&-text {
+				&-more {
+					font-size: 2.6rem;
+				}
 			}
 			&-box {
 				&-item {
@@ -175,9 +177,12 @@
 		}
 
 		&_offert {
-			&-more {
-				font-size: 2.8rem;
+			&-text {
+				&-more {
+					font-size: 2.8rem;
+				}
 			}
+
 			&-box {
 				flex-direction: row;
 

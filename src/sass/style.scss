@@ -256,13 +256,23 @@ button {
 	&_offert {
 		padding: 0 0 6em;
 
-		&-more {
-			display: block;
-			margin-top: 3em;
-			font-size: 2.4rem;
-			text-align: center;
-			text-decoration: none;
-			color: $black;
+		&-text{
+			display: flex;
+			justify-content: center;
+
+			&-more {
+				margin-top: 3em;
+				font-size: 2.4rem;
+				text-align: center;
+				text-decoration: none;
+				color: $black;
+				transition: transform .3s, color .3s;
+	
+				&:hover {
+					transform: scale(1.02);
+					color: $link;
+				}
+			}
 		}
 
 		&-box {
@@ -279,6 +289,11 @@ button {
 				width: 90%;
 				box-shadow: 0px 3px 5px $grey;
 				border-radius: 5px;
+				transition: transform .3s;
+
+			&:hover {
+				transform: scale(0.99);
+			}
 
 				&-type {
 					font-size: 2.4rem;
@@ -379,12 +394,18 @@ button {
 					font-weight: bold;
 					font-size: 2.4rem;
 				}
+				p {
+					margin: 0.5em 0;
+				}
 				&-link {
-					display: block;
-					padding: 0.5em 0;
 					font-size: 1.6rem;
 					text-decoration: none;
 					color: $black;
+					transition: color .3s;
+
+					&:hover {
+						color: $link;
+					}
 				}
 			}
 		}
