@@ -58,6 +58,9 @@
 		}
 
 		&_offert {
+			&-more {
+				font-size: 2.6rem;
+			}
 			&-box {
 				&-item {
 					&-type {
@@ -122,6 +125,10 @@
 }
 
 @media (min-width: 992px) {
+	html {
+		scroll-padding-top: 92px;
+	}
+
 	.nav {
 		justify-content: space-around;
 		&_list {
@@ -168,6 +175,9 @@
 		}
 
 		&_offert {
+			&-more {
+				font-size: 2.8rem;
+			}
 			&-box {
 				flex-direction: row;
 
@@ -175,7 +185,7 @@
 					margin: 1em 2em;
 					&-button {
 						font-size: 2rem;
-	
+
 						&--green {
 							font-size: 2rem;
 						}

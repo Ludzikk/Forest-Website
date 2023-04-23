@@ -10,6 +10,7 @@
 
 html {
 	font-size: 62.5%;
+	scroll-padding-top: 116px;
 	scroll-behavior: smooth;
 }
 
@@ -254,6 +255,16 @@ button {
 
 	&_offert {
 		padding: 0 0 6em;
+
+		&-more {
+			display: block;
+			margin-top: 3em;
+			font-size: 2.4rem;
+			text-align: center;
+			text-decoration: none;
+			color: $black;
+		}
+
 		&-box {
 			display: flex;
 			flex-direction: column;
