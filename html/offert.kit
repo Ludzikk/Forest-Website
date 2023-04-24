@@ -4,22 +4,224 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Forest Website | Offert</title>
+		<title>Forest Website | Oferty</title>
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
 			rel="stylesheet"
 		/>
+		<link href="./dist/css/hamburgers/hamburgers.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 		<link rel="stylesheet" href="./dist/css/style.min.css" />
-        <script
-			src="https://kit.fontawesome.com/bdb2f8ae99.js"
-			crossorigin="anonymous"
-		></script>
 	</head>
 	<body>
 		<!-- @include "navsubpages.kit" -->
-
+		<main class="main main-offert">
+			<h2 class="main-title second" id="offert" data-aos="fade-in" data-aos-once="true" data-aos-duration="1000">Oferta</h2>
+			<p class="main-text" data-aos="fade-in" data-aos-once="true" data-aos-duration="1000">Wybierz jedną z naszych wspaniałych ofert!</p>
+			<div class="wrapper">
+				<section class="main_offert">
+					<div class="main_offert-box offert-box" data-aos="fade-in" data-aos-once="true" data-aos-duration="2000">
+						<div class="main_offert-box-item">
+							<p class="main_offert-box-item-type">Demo</p>
+							<p class="main_offert-box-item-price">$0</p>
+							<ul class="main_offert-box-item-list">
+								<li class="main_offert-box-item-list-item">
+									<p class="main_offert-box-item-list-item-text">
+										<!-- @include "check.kit" -->
+										opcja w pakiecie
+									</p>
+								</li>
+								<li class="main_offert-box-item-list-item">
+									<p class="main_offert-box-item-list-item-text">
+										<!-- @include "check.kit" -->
+										opcja w pakiecie
+									</p>
+								</li>
+								<li class="main_offert-box-item-list-item">
+									<p class="main_offert-box-item-list-item-text--notactive">
+									<!-- @include "minus.kit" -->
+										opcja poza pakietem
+									</p>
+								</li>
+								<li class="main_offert-box-item-list-item">
+									<p class="main_offert-box-item-list-item-text--notactive">
+									<!-- @include "minus.kit" -->
+										opcja poza pakietem
+									</p>
+								</li>
+								<li class="main_offert-box-item-list-item">
+									<p class="main_offert-box-item-list-item-text--notactive">
+										<!-- @include "minus.kit" -->
+										opcja poza pakietem
+									</p>
+								</li>
+							</ul>
+							<button class="main_offert-box-item-button">Wybierz</button>
+						</div>
+						<div class="main_offert-box-item">
+							<p class="main_offert-box-item-type">Standard</p>
+							<p class="main_offert-box-item-price">$99</p>
+							<ul class="main_offert-box-item-list">
+								<li class="main_offert-box-item-list-item">
+									<p class="main_offert-box-item-list-item-text">
+										<!-- @include "check.kit" -->
+										opcja w pakiecie
+									</p>
+								</li>
+								<li class="main_offert-box-item-list-item">
+									<p class="main_offert-box-item-list-item-text">
+										<!-- @include "check.kit" -->
+										opcja w pakiecie
+									</p>
+								</li>
+								<li class="main_offert-box-item-list-item">
+									<p class="main_offert-box-item-list-item-text --notactive">
+										<!-- @include "check.kit" -->
+										opcja w pakiecie
+									</p>
+								</li>
+								<li class="main_offert-box-item-list-item">
+									<p class="main_offert-box-item-list-item-text--notactive">
+										<!-- @include "minus.kit" -->
+										opcja poza pakietem
+									</p>
+								</li>
+								<li class="main_offert-box-item-list-item">
+									<p class="main_offert-box-item-list-item-text--notactive">
+										<!-- @include "minus.kit" -->
+										opcja poza pakietem
+									</p>
+								</li>
+							</ul>
+							<button class="main_offert-box-item-button--green">
+								Wybierz
+							</button>
+						</div>
+						<div class="main_offert-box-item">
+							<p class="main_offert-box-item-type">Premium</p>
+							<p class="main_offert-box-item-price">$299</p>
+							<ul class="main_offert-box-item-list">
+								<li class="main_offert-box-item-list-item">
+									<p class="main_offert-box-item-list-item-text">
+									<!-- @include "check.kit" -->
+										opcja w pakiecie
+									</p>
+								</li>
+								<li class="main_offert-box-item-list-item">
+									<p class="main_offert-box-item-list-item-text">
+										<!-- @include "check.kit" -->
+										opcja w pakiecie
+									</p>
+								</li>
+								<li class="main_offert-box-item-list-item">
+									<p class="main_offert-box-item-list-item-text">
+										<!-- @include "check.kit" -->
+										opcja w pakiecie
+									</p>
+								</li>
+								<li class="main_offert-box-item-list-item">
+									<p class="main_offert-box-item-list-item-text">
+										<!-- @include "check.kit" -->
+										opcja w pakiecie
+									</p>
+								</li>
+								<li class="main_offert-box-item-list-item">
+									<p class="main_offert-box-item-list-item-text">
+										<!-- @include "check.kit" -->
+										opcja w pakiecie
+									</p>
+								</li>
+							</ul>
+							<button class="main_offert-box-item-button">Wybierz</button>
+						</div>
+					</div>
+					<div class="main_offert-box offert-box" data-aos="fade-in" data-aos-once="true" data-aos-duration="2000">
+						<div class="main_offert-box-item">
+							<p class="main_offert-box-item-type">School Pack</p>
+							<p class="main_offert-box-item-price">$500</p>
+							<ul class="main_offert-box-item-list">
+								<li class="main_offert-box-item-list-item">
+									<p class="main_offert-box-item-list-item-text">
+										<!-- @include "check.kit" -->
+										opcja w pakiecie
+									</p>
+								</li>
+								<li class="main_offert-box-item-list-item">
+									<p class="main_offert-box-item-list-item-text">
+										<!-- @include "check.kit" -->
+										opcja w pakiecie
+									</p>
+								</li>
+								<li class="main_offert-box-item-list-item">
+									<p class="main_offert-box-item-list-item-text">
+										<!-- @include "check.kit" -->
+										opcja w pakiecie
+									</p>
+								</li>
+								<li class="main_offert-box-item-list-item">
+									<p class="main_offert-box-item-list-item-text">
+										<!-- @include "check.kit" -->
+										opcja w pakiecie
+									</p>
+								</li>
+								<li class="main_offert-box-item-list-item">
+									<p class="main_offert-box-item-list-item-text">
+										<!-- @include "check.kit" -->
+										opcja w pakiecie
+									</p>
+								</li>
+							</ul>
+							<button class="main_offert-box-item-button">Wybierz</button>
+						</div>
+						
+						<div class="main_offert-box-item">
+							<p class="main_offert-box-item-type">Company Pack</p>
+							<p class="main_offert-box-item-price">$3000</p>
+							<ul class="main_offert-box-item-list">
+								<li class="main_offert-box-item-list-item">
+									<p class="main_offert-box-item-list-item-text">
+										<!-- @include "check.kit" -->
+										opcja w pakiecie
+									</p>
+								</li>
+								<li class="main_offert-box-item-list-item">
+									<p class="main_offert-box-item-list-item-text">
+										<!-- @include "check.kit" -->
+										opcja w pakiecie
+									</p>
+								</li>
+								<li class="main_offert-box-item-list-item">
+									<p class="main_offert-box-item-list-item-text">
+										<!-- @include "check.kit" -->
+										opcja w pakiecie
+									</p>
+								</li>
+								<li class="main_offert-box-item-list-item">
+									<p class="main_offert-box-item-list-item-text">
+										<!-- @include "check.kit" -->
+										opcja w pakiecie
+									</p>
+								</li>
+								<li class="main_offert-box-item-list-item">
+									<p class="main_offert-box-item-list-item-text">
+										<!-- @include "check.kit" -->
+										opcja w pakiecie
+									</p>
+								</li>
+							</ul>
+							<button class="main_offert-box-item-button">Wybierz</button>
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
         <!-- @include "footer.kit" -->
+		<script src="./dist/js/main.min.js"></script>
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+		  AOS.init();
+		</script>
 	</body>
 </html>

@@ -99,9 +99,6 @@
 
 	.footer {
 		&_top {
-			flex-direction: row;
-			justify-content: space-between;
-
 			&-left {
 				font-size: 4.2rem;
 			}
@@ -113,8 +110,12 @@
 						font-size: 2.8rem;
 					}
 
-					&-link {
-						font-size: 1.8rem;
+					&-list {
+						&-item {
+							&-link {
+								font-size: 1.9rem;
+							}
+						}
 					}
 				}
 			}
@@ -204,20 +205,24 @@
 		&_top {
 			flex-direction: row;
 			justify-content: space-between;
+		}
+		&-left {
+			font-size: 4.4rem;
+		}
 
-			&-left {
-				font-size: 4.4rem;
-			}
+		&-right {
+			display: flex;
+			&-box {
+				text-align: left;
+				&-title {
+					font-size: 3rem;
+				}
 
-			&-right {
-				display: flex;
-				&-box {
-					&-title {
-						font-size: 3rem;
-					}
-
-					&-link {
-						font-size: 1.8rem;
+				&-list {
+					&-item {
+						&-link {
+							font-size: 2rem;
+						}
 					}
 				}
 			}
@@ -226,5 +231,18 @@
 		&-text {
 			font-size: 1.8rem;
 		}
+	}
+
+	.main-offert {
+		padding: 0;
+	}
+
+	.main-contact {
+		flex-direction: row;
+	}
+
+	.google-map {
+		width: 500px;
+		height: 300px;
 	}
 }

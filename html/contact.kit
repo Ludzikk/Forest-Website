@@ -4,22 +4,62 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Forest Website | Offert</title>
+		<title>Forest Website | Kontakt</title>
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
 			rel="stylesheet"
 		/>
+		<link href="./dist/css/hamburgers/hamburgers.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 		<link rel="stylesheet" href="./dist/css/style.min.css" />
-        <script
-			src="https://kit.fontawesome.com/bdb2f8ae99.js"
-			crossorigin="anonymous"
-		></script>
 	</head>
 	<body>
 		<!-- @include "navsubpages.kit" -->
-
-        <!-- @include "footer.kit" -->
+		<div class="wrapper">
+			<main class="main-contact">
+				<div class="main-contact-left" data-aos="fade-right" data-aos-once="true" data-aos-duration="1000">
+					<form class="main-contact-left_form">
+						<label class="main-contact-left_form-label" for="name">Imię:</label>
+						<input
+							class="main-contact-left_form-input"
+							type="text"
+							id="name"
+							placeholder="Wprowadź imię"
+						/>
+						<label class="main-contact-left_form-label" for="mail">E-mail:</label>
+						<input
+							class="main-contact-left_form-input"
+							type="email"
+							id="mail"
+							placeholder="Wprowadź email"
+						/>
+						<label class="main-contact-left_form-label" for="msg">Wiadomość:</label>
+						<textarea class="main-contact-left_form-textarea" id="msg" placeholder="Wpisz wiadomość..."></textarea>
+						<button class="main-contact-left_form-button" type="button">Wyślij</button>
+					</form>
+				</div>
+				<div class="main-contact-right" data-aos="fade-left" data-aos-once="true" data-aos-duration="1000">
+					<div class="google-map">
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.898452497736!2d19.890660215718313!3d50.088188079426935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165a326d015c3b%3A0x47a12cd367a1f34e!2sRestauracja%20McDonald&#39;s!5e0!3m2!1spl!2spl!4v1682352065108!5m2!1spl!2spl"
+							width="600"
+							height="450"
+							style="border: 0"
+							allowfullscreen=""
+							loading="lazy"
+							referrerpolicy="no-referrer-when-downgrade"
+						></iframe>
+					</div>
+				</div>
+			</main>
+		</div>
+		<!-- @include "footer.kit" -->
+		<script src="./dist/js/main.min.js"></script>
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+		  AOS.init();
+		</script>
 	</body>
 </html>

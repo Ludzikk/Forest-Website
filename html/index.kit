@@ -11,18 +11,16 @@
 			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
 			rel="stylesheet"
 		/>
+		<link href="./dist/css/hamburgers/hamburgers.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 		<link rel="stylesheet" href="./dist/css/style.min.css" />
-		<script
-			src="https://kit.fontawesome.com/bdb2f8ae99.js"
-			crossorigin="anonymous"
-		></script>
 	</head>
 	<body>
 		<!-- @include "nav.kit" -->
 		<header class="header">
 			<div class="header_bg"></div>
 			<div class="wrapper">
-				<div class="header_textbox">
+				<div class="header_textbox" data-aos="fade-down" data-aos-once="true" data-aos-duration="1000">
 					<p class="header_textbox-text">Forest Group</p>
 					<h1 class="header_textbox-title">
 						Najpiękniejszy park w Twojej okolicy!
@@ -32,17 +30,17 @@
 		</header>
 
 		<main class="main">
-			<h2 class="main-title" id="about-us">o nas</h2>
+			<h2 class="main-title" id="about-us" data-aos="fade-down" data-aos-once="true" data-aos-duration="1000">o nas</h2>
 			<div class="wrapper">
 				<section class="main_aboutus">
-					<div class="main_aboutus-left">
+					<div class="main_aboutus-left" data-aos="fade-right" data-aos-once="true" data-aos-duration="1000">
 						<img
 							class="main_aboutus-left-img"
 							src="./dist/img/aboutus.jpg"
 							alt="Drzewo rosnące na kamieniu po środku jeziora, w środku lasu."
 						/>
 					</div>
-					<div class="main_aboutus-right">
+					<div class="main_aboutus-right" data-aos="fade-left" data-aos-once="true" data-aos-duration="1000">
 						<h3 class="main_aboutus-right-title">Niezapomniane przygody</h3>
 						<p class="main_aboutus-right-text">
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
@@ -56,54 +54,50 @@
 			</div>
 			<section class="main_photo">
 				<div class="main_photo-bg"></div>
-				<p class="main_photo-text">Przygoda dla całej rodziny</p>
+				<p class="main_photo-text" data-aos="fade-down" data-aos-once="true" data-aos-duration="1500">Przygoda dla całej rodziny</p>
 			</section>
-			<h2 class="main-title second" id="offert">Oferta</h2>
-			<p class="main-text">Wybierz jedną z naszych wspaniałych ofert!</p>
+			<h2 class="main-title second" id="offert" data-aos="fade-in" data-aos-once="true" data-aos-duration="1000">Oferta</h2>
+			<p class="main-text" data-aos="fade-in" data-aos-once="true" data-aos-duration="1000">Wybierz jedną z naszych wspaniałych ofert!</p>
 			<div class="wrapper">
 				<section class="main_offert">
-					<div class="main_offert-box">
+					<div class="main_offert-box" data-aos="fade-in" data-aos-once="true" data-aos-duration="2000">
 						<div class="main_offert-box-item">
 							<p class="main_offert-box-item-type">Demo</p>
 							<p class="main_offert-box-item-price">$0</p>
 							<ul class="main_offert-box-item-list">
 								<li class="main_offert-box-item-list-item">
 									<p class="main_offert-box-item-list-item-text">
-										<i
-											class="fa-solid fa-check main_offert-box-item-list-item-text-icon"
-										></i>
+										<!-- @include "check.kit" -->
 										opcja w pakiecie
 									</p>
 								</li>
 								<li class="main_offert-box-item-list-item">
 									<p class="main_offert-box-item-list-item-text">
-										<i
-											class="fa-solid fa-check main_offert-box-item-list-item-text-icon"
-										></i>
+										<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check main_offert-box-item-list-item-text-icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+											<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+											<path d="M5 12l5 5l10 -10" />
+										  </svg>
+										  
+										  
+										  
 										opcja w pakiecie
 									</p>
 								</li>
 								<li class="main_offert-box-item-list-item">
 									<p class="main_offert-box-item-list-item-text--notactive">
-										<i
-											class="fa-solid fa-minus main_offert-box-item-list-item-text-icon"
-										></i>
+										<!-- @include "minus.kit" -->
 										opcja poza pakietem
 									</p>
 								</li>
 								<li class="main_offert-box-item-list-item">
 									<p class="main_offert-box-item-list-item-text--notactive">
-										<i
-											class="fa-solid fa-minus main_offert-box-item-list-item-text-icon"
-										></i>
+										<!-- @include "minus.kit" -->
 										opcja poza pakietem
 									</p>
 								</li>
 								<li class="main_offert-box-item-list-item">
 									<p class="main_offert-box-item-list-item-text--notactive">
-										<i
-											class="fa-solid fa-minus main_offert-box-item-list-item-text-icon"
-										></i>
+										<!-- @include "minus.kit" -->
 										opcja poza pakietem
 									</p>
 								</li>
@@ -116,41 +110,31 @@
 							<ul class="main_offert-box-item-list">
 								<li class="main_offert-box-item-list-item">
 									<p class="main_offert-box-item-list-item-text">
-										<i
-											class="fa-solid fa-check main_offert-box-item-list-item-text-icon"
-										></i>
+										<!-- @include "check.kit" -->
 										opcja w pakiecie
 									</p>
 								</li>
 								<li class="main_offert-box-item-list-item">
 									<p class="main_offert-box-item-list-item-text">
-										<i
-											class="fa-solid fa-check main_offert-box-item-list-item-text-icon"
-										></i>
+										<!-- @include "check.kit" -->
 										opcja w pakiecie
 									</p>
 								</li>
 								<li class="main_offert-box-item-list-item">
 									<p class="main_offert-box-item-list-item-text --notactive">
-										<i
-											class="fa-solid fa-check main_offert-box-item-list-item-text-icon"
-										></i>
+										<!-- @include "check.kit" -->
 										opcja w pakiecie
 									</p>
 								</li>
 								<li class="main_offert-box-item-list-item">
 									<p class="main_offert-box-item-list-item-text--notactive">
-										<i
-											class="fa-solid fa-minus main_offert-box-item-list-item-text-icon"
-										></i>
+										<!-- @include "minus.kit" -->
 										opcja poza pakietem
 									</p>
 								</li>
 								<li class="main_offert-box-item-list-item">
 									<p class="main_offert-box-item-list-item-text--notactive">
-										<i
-											class="fa-solid fa-minus main_offert-box-item-list-item-text-icon"
-										></i>
+										<!-- @include "minus.kit" -->
 										opcja poza pakietem
 									</p>
 								</li>
@@ -165,41 +149,31 @@
 							<ul class="main_offert-box-item-list">
 								<li class="main_offert-box-item-list-item">
 									<p class="main_offert-box-item-list-item-text">
-										<i
-											class="fa-solid fa-check main_offert-box-item-list-item-text-icon"
-										></i>
+										<!-- @include "check.kit" -->
 										opcja w pakiecie
 									</p>
 								</li>
 								<li class="main_offert-box-item-list-item">
 									<p class="main_offert-box-item-list-item-text">
-										<i
-											class="fa-solid fa-check main_offert-box-item-list-item-text-icon"
-										></i>
+										<!-- @include "check.kit" -->
 										opcja w pakiecie
 									</p>
 								</li>
 								<li class="main_offert-box-item-list-item">
 									<p class="main_offert-box-item-list-item-text">
-										<i
-											class="fa-solid fa-check main_offert-box-item-list-item-text-icon"
-										></i>
+										<!-- @include "check.kit" -->
 										opcja w pakiecie
 									</p>
 								</li>
 								<li class="main_offert-box-item-list-item">
 									<p class="main_offert-box-item-list-item-text">
-										<i
-											class="fa-solid fa-check main_offert-box-item-list-item-text-icon"
-										></i>
+										<!-- @include "check.kit" -->
 										opcja w pakiecie
 									</p>
 								</li>
 								<li class="main_offert-box-item-list-item">
 									<p class="main_offert-box-item-list-item-text">
-										<i
-											class="fa-solid fa-check main_offert-box-item-list-item-text-icon"
-										></i>
+										<!-- @include "check.kit" -->
 										opcja w pakiecie
 									</p>
 								</li>
@@ -207,11 +181,15 @@
 							<button class="main_offert-box-item-button">Wybierz</button>
 						</div>
 					</div>
-					<p class="main_offert-text"><a href="./offert.html" class="main_offert-text-more">Więcej ofert...</a></p>
+					<p class="main_offert-text" data-aos="fade-in" data-aos-once="true" data-aos-duration="2000"><a href="./offert.html" class="main_offert-text-more">Więcej ofert...</a></p>
 				</section>
 			</div>
 		</main>
 		<!-- @include "footer.kit" -->
 		<script src="./dist/js/main.min.js"></script>
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+		  AOS.init();
+		</script>
 	</body>
 </html>
