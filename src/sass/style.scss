@@ -76,17 +76,14 @@ button {
 			transition: background-color 0.3s;
 
 			&-link {
+				position: relative;
 				text-decoration: none;
 				color: $black;
-				transition: color 0.3s;
-			}
+				transition: color .3s;
 
-			&:hover {
-				background-color: $black;
-			}
-
-			&:hover > a {
-				color: $white;
+				&:hover {
+					color: $grey;
+				}
 			}
 		}
 	}
