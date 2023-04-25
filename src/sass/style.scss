@@ -81,7 +81,7 @@ button {
 			}
 
 			&:hover > a {
-				color: white;
+				color: $white;
 			}
 		}
 	}
@@ -374,6 +374,7 @@ button {
 						box-shadow: 0 2px 5px $grey;
 						border-radius: 5px;
 						cursor: pointer;
+						color: $black;
 						background-color: $green;
 						transition: transform 0.3s;
 
@@ -541,6 +542,21 @@ button {
 	width: 100%;
 	left: 0;
 	top: 0;
+}
+
+.scrollspy-active {
+	background-color: $black;
+}
+
+.scrollspy-active-item {
+	color: white;
+}
+
+.scrollspy-header {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	height: 100px;
 }
 
 @keyframes show {
