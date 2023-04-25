@@ -55,6 +55,11 @@ button {
 		padding: 0.5em 0;
 		font-size: 4rem;
 
+		a {
+			text-decoration: none;
+			color: $black;
+		}
+
 		&-icon {
 			padding: 0 0.25em;
 			width: 1.6em;
@@ -67,7 +72,7 @@ button {
 		list-style-type: none;
 
 		&-item {
-			padding: 1.5em 1.5em;
+			padding: 1.6em 1.5em;
 			transition: background-color 0.3s;
 
 			&-link {
@@ -532,7 +537,7 @@ button {
 .google-map {
 	position: relative;
 	margin: 2em;
-	width: 90vw;
+	width: 70vw;
 	height: 300px;
 }
 
