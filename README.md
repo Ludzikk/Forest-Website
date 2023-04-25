@@ -6,6 +6,7 @@
 2. CSS
 3. SCCS
 4. JS
+5. GULP
 
 ***Fully working site about forest. Fully responsive.***
 
